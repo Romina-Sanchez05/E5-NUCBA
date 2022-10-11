@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    /* bg color */
+    --background: #131415;
+    --box: #252525;
+    --orange: #FFA400;
+    --red: #FC2933;
+
+    /* text color */
+    --text-white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+/* Header */
+
+header {
+    background: var(--background);
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 100px 0px 30px;
+    position: fixed;
+    top: 0;
+
+}
+
+.logo {
+    height: 50px;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+
+}
+
+/* Main */
+
+main {
+    background: var(--background);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-white);
+    width: 100%;
+}
+
+/* Hero */
+#hero {
+    margin-top: 65px;
+    padding: 70px 0;
+    max-width: 1200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 50%;
+}
+
+.hero-info h1 {
+    font-size: 48px;
+    width: 80%;
+    min-width: 500px;
+}
+
+.hero-info p {
+    font-size: 14px;
+    width: 70%;
+}
+
+.hero-info a {
+    width: 120px;
+    padding: 8px 0px;
+    border-radius: 10px;
+    font-size: 10px;
+    text-align: center;
+    color: var(--text-white);
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #FFA100, #FB103D);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #FFA100, #FB103D)
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.hero-card {
+    width: 500px;
+    padding: 0px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 0px;
+}
+
+.imagen1 {
+padding: 20px 0px;
+
+}
+
+.imagen2 {
+padding: 10px 0px;
+
+}
+
